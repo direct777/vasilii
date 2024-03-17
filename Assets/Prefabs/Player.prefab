@@ -43,7 +43,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 31980d3225293a44486724a00cc62156, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  targetPoint: {fileID: 5774228341347489623}
+  targetPoint: {fileID: 2578451896165592960}
   cameraLink: {fileID: 4773075013938726926}
   targetInSkyDistance: 0
 --- !u!1 &4773075013805104935

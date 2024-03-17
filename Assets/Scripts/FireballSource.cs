@@ -16,20 +16,23 @@ public class FireballSource : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        var ray = cameraLink.ViewportPointToRay(new Vector3(0.5f, 0.7f, 0));
+        var ray = cameraLink.ViewportPointToRay(new Vector3(0.5f, 0.6f, 0));
         RaycastHit hit;
-        Physics.Raycast(ray, out hit);        
-        Debug.Log("hit=" + hit);
+        //Physics.Raycast(ray, out hit);
+        
+        //Debug.Log("hit=" + hit);
+        //Debug.DrawRay(cameraLink.transform.position, ray, Color.red);
 
-        if (Physics.Raycast(ray, out hit))
+        if (Physics.Raycast(ray,out hit))
         {
             targetPoint.position = hit.point;
-            Debug.Log("targetPoint.position=" + hit.point);
+            //Debug.DrawRay(ray, targetPoint.position, Color.red);
+            //Debug.Log("targetPoint.position=" + hit.point);
         }
         else
         {
             targetPoint.position = ray.GetPoint(targetInSkyDistance);
-            Debug.Log("targetPoint.position in the else=" + hit.point);
+            //Debug.Log("targetPoint.position in the else=" + hit.point);
         }
         transform.LookAt(targetPoint.position);
     }

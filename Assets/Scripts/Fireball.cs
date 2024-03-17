@@ -6,6 +6,7 @@ public class Fireball : MonoBehaviour
 {
     public float speed;
     public float lifeTime;
+    public float damage = 10;
     // Start is called before the first frame update
     void Start()
     {
@@ -30,10 +31,20 @@ public class Fireball : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        //if (collision.gameObject.tag == "Enemy")
+        DamageEnemy(collision);
+        DestroyFireball();
+    }
+
+    private void DamageEnemy(Collision collision)
+    {        
+        var enemyHealth = collision.gameObject.GetComponent<EnemyHealth>();
+        Debug.Log("DamageEnemy enemyHealth=" + enemyHealth);
+        if (enemyHealth != null)
         {
-            //Destroy(collision.gameObject);
-            DestroyFireball();
+            Debug.Log("enemyHealth.value=" + enemyHealth.value);
+            enemyHealth.value -= damage;
+            Debug.Log("damage=" + damage);
+            Debug.Log("enemyHealth.value=" + enemyHealth.value);
         }
     }
 
