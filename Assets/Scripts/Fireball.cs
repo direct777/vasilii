@@ -41,10 +41,15 @@ public class Fireball : MonoBehaviour
         Debug.Log("DamageEnemy enemyHealth=" + enemyHealth);
         if (enemyHealth != null)
         {
-            Debug.Log("enemyHealth.value=" + enemyHealth.value);
+            enemyHealth.DealDamage(damage);
+            /*Debug.Log("enemyHealth.value=" + enemyHealth.value);
             enemyHealth.value -= damage;
             Debug.Log("damage=" + damage);
             Debug.Log("enemyHealth.value=" + enemyHealth.value);
+            if (enemyHealth.value <= 0)
+            {
+                Destroy(enemyHealth.gameObject);
+            }*/
         }
     }
 
