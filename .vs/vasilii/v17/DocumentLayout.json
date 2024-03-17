@@ -1,0 +1,103 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\proj\\unity\\vasilii\\vasilii\\vasilii\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{4770B281-75BE-8AF3-268E-09FC003D1C94}|Assembly-CSharp.csproj|c:\\proj\\unity\\vasilii\\vasilii\\vasilii\\assets\\scripts\\fireballsource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4770B281-75BE-8AF3-268E-09FC003D1C94}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fireballsource.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4770B281-75BE-8AF3-268E-09FC003D1C94}|Assembly-CSharp.csproj|C:\\proj\\unity\\vasilii\\vasilii\\vasilii\\assets\\scripts\\fireballcaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4770B281-75BE-8AF3-268E-09FC003D1C94}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fireballcaster.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4770B281-75BE-8AF3-268E-09FC003D1C94}|Assembly-CSharp.csproj|C:\\proj\\unity\\vasilii\\vasilii\\vasilii\\assets\\scripts\\fireball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4770B281-75BE-8AF3-268E-09FC003D1C94}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fireball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4770B281-75BE-8AF3-268E-09FC003D1C94}|Assembly-CSharp.csproj|C:\\proj\\unity\\vasilii\\vasilii\\vasilii\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4770B281-75BE-8AF3-268E-09FC003D1C94}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4770B281-75BE-8AF3-268E-09FC003D1C94}|Assembly-CSharp.csproj|C:\\proj\\unity\\vasilii\\vasilii\\vasilii\\assets\\scripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4770B281-75BE-8AF3-268E-09FC003D1C94}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "FireballSource.cs",
+              "DocumentMoniker": "C:\\proj\\unity\\vasilii\\vasilii\\vasilii\\Assets\\Scripts\\FireballSource.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FireballSource.cs",
+              "ToolTip": "C:\\proj\\unity\\vasilii\\vasilii\\vasilii\\Assets\\Scripts\\FireballSource.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FireballSource.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAACMAAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T21:31:02.543Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "FireballCaster.cs",
+              "DocumentMoniker": "C:\\proj\\unity\\vasilii\\vasilii\\vasilii\\Assets\\Scripts\\FireballCaster.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\FireballCaster.cs",
+              "ToolTip": "C:\\proj\\unity\\vasilii\\vasilii\\vasilii\\Assets\\Scripts\\FireballCaster.cs",
+              "RelativeToolTip": "Assets\\Scripts\\FireballCaster.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAABhAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T19:43:01.128Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Fireball.cs",
+              "DocumentMoniker": "C:\\proj\\unity\\vasilii\\vasilii\\vasilii\\Assets\\Scripts\\Fireball.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\Fireball.cs",
+              "ToolTip": "C:\\proj\\unity\\vasilii\\vasilii\\vasilii\\Assets\\Scripts\\Fireball.cs",
+              "RelativeToolTip": "Assets\\Scripts\\Fireball.cs",
+              "ViewState": "AQIAAAgAAAAAAAAAAAAQwBIAAAAHAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T18:53:11.908Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PlayerController.cs",
+              "DocumentMoniker": "C:\\proj\\unity\\vasilii\\vasilii\\vasilii\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
+              "ToolTip": "C:\\proj\\unity\\vasilii\\vasilii\\vasilii\\Assets\\Scripts\\PlayerController.cs",
+              "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABDAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T09:31:53.511Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "EnemyAI.cs",
+              "DocumentMoniker": "C:\\proj\\unity\\vasilii\\vasilii\\vasilii\\Assets\\Scripts\\EnemyAI.cs",
+              "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyAI.cs",
+              "ToolTip": "C:\\proj\\unity\\vasilii\\vasilii\\vasilii\\Assets\\Scripts\\EnemyAI.cs",
+              "RelativeToolTip": "Assets\\Scripts\\EnemyAI.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAeAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-03-16T09:25:31.277Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
