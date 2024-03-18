@@ -12,6 +12,8 @@ public class EnemyAI : MonoBehaviour
     private NavMeshAgent _navMeshAgent;
     private bool _isPlayerNoticed;
     private PlayerHealth _playerHealth;
+
+
     // Start is called before the first frame update
     private void Start()
     {
@@ -36,9 +38,13 @@ public class EnemyAI : MonoBehaviour
 
     private void AttackUpdate()
     {
-        if (_isPlayerNoticed && _navMeshAgent.remainingDistance <= _navMeshAgent.stoppingDistance)
+        if (_isPlayerNoticed)
         {
-            _playerHealth.DealDamage(damage * Time.deltaTime);
+            if((player.transform.position - transform.position).magnitude <= _navMeshAgent.stoppingDistance)
+            //if (_navMeshAgent.remainingDistance <= _navMeshAgent.stoppingDistance)
+            {
+                _playerHealth.DealDamage(damage * Time.deltaTime);
+            }
         }
     }
 
@@ -61,10 +67,13 @@ public class EnemyAI : MonoBehaviour
 
     private void PatrolUpdate()
     {
-        if(_navMeshAgent.remainingDistance <= _navMeshAgent.stoppingDistance && !_isPlayerNoticed)
+        if (!_isPlayerNoticed)
         {
-            PickNewPatrolPoint();
-        }       
+            if (_navMeshAgent.remainingDistance <= _navMeshAgent.stoppingDistance)
+            {
+                PickNewPatrolPoint();
+            }
+        }
     }
 
     private void PickNewPatrolPoint()
