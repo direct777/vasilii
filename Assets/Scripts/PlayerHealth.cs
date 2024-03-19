@@ -8,6 +8,7 @@ public class PlayerHealth : MonoBehaviour
     public RectTransform valueRectTransform;
     public GameObject gameplayUI;
     public GameObject gameOverScreen;
+    public Animator animator;
     private float _maxValue;
     public void DealDamage(float damage)
     {
@@ -26,6 +27,7 @@ public class PlayerHealth : MonoBehaviour
         GetComponent<PlayerController>().enabled = false;
         GetComponent<FireballCaster>().enabled = false;
         GetComponent<CameraRotation>().enabled = false;
+        animator.SetTrigger("finish");
     }
     // Start is called before the first frame update
     void Start()

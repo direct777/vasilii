@@ -3,19 +3,23 @@
   "WorkspaceRootPath": "C:\\proj\\unity\\copyfromgit\\vasilii\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{4770B281-75BE-8AF3-268E-09FC003D1C94}|Assembly-CSharp.csproj|C:\\proj\\unity\\copyfromgit\\vasilii\\assets\\scripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4770B281-75BE-8AF3-268E-09FC003D1C94}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4770B281-75BE-8AF3-268E-09FC003D1C94}|Assembly-CSharp.csproj|C:\\proj\\unity\\copyfromgit\\vasilii\\assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4770B281-75BE-8AF3-268E-09FC003D1C94}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4770B281-75BE-8AF3-268E-09FC003D1C94}|Assembly-CSharp.csproj|c:\\proj\\unity\\copyfromgit\\vasilii\\assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4770B281-75BE-8AF3-268E-09FC003D1C94}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playerhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{4770B281-75BE-8AF3-268E-09FC003D1C94}|Assembly-CSharp.csproj|C:\\proj\\unity\\copyfromgit\\vasilii\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4770B281-75BE-8AF3-268E-09FC003D1C94}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{4770B281-75BE-8AF3-268E-09FC003D1C94}|Assembly-CSharp.csproj|c:\\proj\\unity\\copyfromgit\\vasilii\\assets\\scripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{4770B281-75BE-8AF3-268E-09FC003D1C94}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyai.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{4770B281-75BE-8AF3-268E-09FC003D1C94}|Assembly-CSharp.csproj|C:\\proj\\unity\\copyfromgit\\vasilii\\assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4770B281-75BE-8AF3-268E-09FC003D1C94}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\enemyhealth.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{4770B281-75BE-8AF3-268E-09FC003D1C94}|Assembly-CSharp.csproj|c:\\proj\\unity\\copyfromgit\\vasilii\\assets\\scripts\\reloadonescape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{4770B281-75BE-8AF3-268E-09FC003D1C94}|Assembly-CSharp.csproj|C:\\proj\\unity\\copyfromgit\\vasilii\\assets\\scripts\\reloadonescape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4770B281-75BE-8AF3-268E-09FC003D1C94}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\reloadonescape.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
@@ -25,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{4770B281-75BE-8AF3-268E-09FC003D1C94}|Assembly-CSharp.csproj|C:\\proj\\unity\\copyfromgit\\vasilii\\assets\\scripts\\fireball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{4770B281-75BE-8AF3-268E-09FC003D1C94}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\fireball.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{4770B281-75BE-8AF3-268E-09FC003D1C94}|Assembly-CSharp.csproj|C:\\proj\\unity\\copyfromgit\\vasilii\\assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{4770B281-75BE-8AF3-268E-09FC003D1C94}|Assembly-CSharp.csproj|solutionrelative:assets\\scripts\\playercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +38,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "ReloadOnEscape.cs",
               "DocumentMoniker": "C:\\proj\\unity\\copyfromgit\\vasilii\\Assets\\Scripts\\ReloadOnEscape.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\ReloadOnEscape.cs",
@@ -50,25 +50,24 @@
               "RelativeToolTip": "Assets\\Scripts\\ReloadOnEscape.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-18T17:37:18.947Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-18T17:37:18.947Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "PlayerHealth.cs",
               "DocumentMoniker": "C:\\proj\\unity\\copyfromgit\\vasilii\\Assets\\Scripts\\PlayerHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerHealth.cs",
               "ToolTip": "C:\\proj\\unity\\copyfromgit\\vasilii\\Assets\\Scripts\\PlayerHealth.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerHealth.cs",
-              "ViewState": "AQIAABgAAAAAAAAAAAAowCwAAAAKAAAA",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB0AAAAjAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-17T14:15:42.792Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
               "Title": "FireballSource.cs",
               "DocumentMoniker": "C:\\proj\\unity\\copyfromgit\\vasilii\\Assets\\Scripts\\FireballSource.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\FireballSource.cs",
@@ -80,7 +79,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "Fireball.cs",
               "DocumentMoniker": "C:\\proj\\unity\\copyfromgit\\vasilii\\Assets\\Scripts\\Fireball.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\Fireball.cs",
@@ -92,32 +91,33 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "PlayerController.cs",
               "DocumentMoniker": "C:\\proj\\unity\\copyfromgit\\vasilii\\Assets\\Scripts\\PlayerController.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\PlayerController.cs",
               "ToolTip": "C:\\proj\\unity\\copyfromgit\\vasilii\\Assets\\Scripts\\PlayerController.cs",
               "RelativeToolTip": "Assets\\Scripts\\PlayerController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAABDAAAA",
+              "ViewState": "AQIAACAAAAAAAAAAAAA9wD8AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-16T09:31:53.511Z"
+              "WhenOpened": "2024-03-16T09:31:53.511Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "EnemyAI.cs",
               "DocumentMoniker": "C:\\proj\\unity\\copyfromgit\\vasilii\\Assets\\Scripts\\EnemyAI.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyAI.cs",
               "ToolTip": "C:\\proj\\unity\\copyfromgit\\vasilii\\Assets\\Scripts\\EnemyAI.cs",
               "RelativeToolTip": "Assets\\Scripts\\EnemyAI.cs",
-              "ViewState": "AQIAABsAAAAAAAAAAAAawCoAAAA0AAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAlwCoAAAA0AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-03-16T09:25:31.277Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "EnemyHealth.cs",
               "DocumentMoniker": "C:\\proj\\unity\\copyfromgit\\vasilii\\Assets\\Scripts\\EnemyHealth.cs",
               "RelativeDocumentMoniker": "Assets\\Scripts\\EnemyHealth.cs",
@@ -125,8 +125,7 @@
               "RelativeToolTip": "Assets\\Scripts\\EnemyHealth.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-03-17T10:52:25.26Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-03-17T10:52:25.26Z"
             }
           ]
         }
