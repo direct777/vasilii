@@ -8,11 +8,19 @@ public class EnemyAI : MonoBehaviour
     public PlayerController player;
     public float viewAngle;
     public float damage = 30;
+    public Animator animator;
+    public float attackDistance = 1;
 
     private NavMeshAgent _navMeshAgent;
     private bool _isPlayerNoticed;
     private PlayerHealth _playerHealth;
 
+    public void AttackDamage()
+    {
+        if (!_isPlayerNoticed) return;
+        if ((player.transform.position - transform.position).magnitude > (_navMeshAgent.stoppingDistance /*- attackDistance*/)) return;
+        _playerHealth.DealDamage(damage);
+    }
 
     // Start is called before the first frame update
     private void Start()
@@ -43,7 +51,8 @@ public class EnemyAI : MonoBehaviour
             if((player.transform.position - transform.position).magnitude <= _navMeshAgent.stoppingDistance)
             //if (_navMeshAgent.remainingDistance <= _navMeshAgent.stoppingDistance)
             {
-                _playerHealth.DealDamage(damage * Time.deltaTime);
+                animator.SetTrigger("attack");
+                //_playerHealth.DealDamage(damage * Time.deltaTime);
             }
         }
     }
@@ -52,6 +61,7 @@ public class EnemyAI : MonoBehaviour
     {
         var direction = player.transform.position - transform.position;
         _isPlayerNoticed = false;
+        if (_playerHealth.value <= 0) return;
         if (Vector3.Angle(transform.forward, direction) < viewAngle)
         {
             RaycastHit hit;
