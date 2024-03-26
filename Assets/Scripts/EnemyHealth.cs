@@ -4,10 +4,12 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.AI;
 
+
 public class EnemyHealth : MonoBehaviour
 {
     public float value = 100;
     public Animator animator;
+    public Explosion explosionPrefab;
     public void DealDamage(float damage)
     {
         value -= damage;
@@ -30,5 +32,17 @@ public class EnemyHealth : MonoBehaviour
         GetComponent<EnemyAI>().enabled = false;
         GetComponent<NavMeshAgent>().enabled = false;
         GetComponent<CapsuleCollider>().enabled = false;
+        MobExplosion();
     }
+    private void MobExplosion()
+    {
+        if (explosionPrefab == null) return;
+        var explosion = Instantiate(explosionPrefab, transform.position, Quaternion.identity);
+        explosion.transform.position = transform.position;
+    }
+    public bool IsAlive()
+    {
+        return value > 0;
+    }
+
 }

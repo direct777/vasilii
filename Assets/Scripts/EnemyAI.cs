@@ -14,25 +14,37 @@ public class EnemyAI : MonoBehaviour
     private NavMeshAgent _navMeshAgent;
     private bool _isPlayerNoticed;
     private PlayerHealth _playerHealth;
+    private EnemyHealth _enemyHealth;
+
+    public bool IsAlive()
+    { 
+        return _enemyHealth.IsAlive();
+    }       
 
     public void AttackDamage()
     {
+        Debug.Log("AttackDamage");
         if (!_isPlayerNoticed) return;
-        if ((player.transform.position - transform.position).magnitude > (_navMeshAgent.stoppingDistance /*- attackDistance*/)) return;
+        if ((player.transform.position - transform.position).magnitude > (_navMeshAgent.stoppingDistance + attackDistance)) return;
         _playerHealth.DealDamage(damage);
     }
 
     // Start is called before the first frame update
     private void Start()
     {
-       InitComponentLinks();
-       PickNewPatrolPoint();
+       InitComponentLinks();        
+        PickNewPatrolPoint();
     }
 
     private void InitComponentLinks()
     {
         _navMeshAgent = GetComponent<NavMeshAgent>();
         _playerHealth = player.GetComponent<PlayerHealth>();
+        _enemyHealth = this.GetComponent<EnemyHealth>();
+
+        /*if (_navMeshAgent == null) Debug.LogError("NavMeshAgent not found on " + gameObject.name);
+        if (_playerHealth == null) Debug.LogError("PlayerHealth not found on " + player.gameObject.name);
+        if (_enemyHealth == null) Debug.LogError("EnemyHealth not found on " + gameObject.name);*/
     }
 
     // Update is called once per frame
@@ -46,11 +58,14 @@ public class EnemyAI : MonoBehaviour
 
     private void AttackUpdate()
     {
+        Debug.Log("AttackUpdate");
         if (_isPlayerNoticed)
         {
-            if((player.transform.position - transform.position).magnitude <= _navMeshAgent.stoppingDistance)
+            Debug.Log("_isPlayerNoticed");
+            if ((player.transform.position - transform.position).magnitude <= _navMeshAgent.stoppingDistance)
             //if (_navMeshAgent.remainingDistance <= _navMeshAgent.stoppingDistance)
             {
+                Debug.Log("SetTrigger attack");
                 animator.SetTrigger("attack");
                 //_playerHealth.DealDamage(damage * Time.deltaTime);
             }
@@ -59,9 +74,10 @@ public class EnemyAI : MonoBehaviour
 
     private void NoticePlayerUpdate() 
     {
-        var direction = player.transform.position - transform.position;
+        
         _isPlayerNoticed = false;
-        if (_playerHealth.value <= 0) return;
+        if (!_playerHealth.IsAlive()) return;
+        var direction = player.transform.position - transform.position;
         if (Vector3.Angle(transform.forward, direction) < viewAngle)
         {
             RaycastHit hit;

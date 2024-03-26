@@ -10,6 +10,12 @@ public class PlayerHealth : MonoBehaviour
     public GameObject gameOverScreen;
     public Animator animator;
     private float _maxValue;
+    
+    public bool IsAlive()
+    {
+        return value > 0;
+    }
+
     public void DealDamage(float damage)
     {
         value -= damage;
